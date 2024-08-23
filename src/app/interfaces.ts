@@ -1,7 +1,7 @@
 export interface RestoCategorie {
     title: string;
     uuid: string;
-    recipe: RestoRecipe[];
+    recipes: RestoRecipe[];
 }
 export interface RestoRecipe{
     description: string;
@@ -9,4 +9,9 @@ export interface RestoRecipe{
     uuid: string;
     imageUrl: string;
     price: number;
+}
+
+export interface APIResponse {
+    title: string;
+    data: RestoCategorie[];
 }
