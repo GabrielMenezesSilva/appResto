@@ -1,13 +1,11 @@
-
-
 <ul>
-    <li *ngFor="let category of categories">
+    <li *ngFor="let category of categories$|async" (click)="selectedCategoryId=category.uuid">
         {{category.title | uppercase}}
     </li>
 </ul>
 
 <ul>
-    <li *ngFor="let category of categories$|async|filterByCategoryID: '01489fc9-0be3-424e-a276-33e393062072'">
+    <li *ngFor="let category of categories$|async|filterByCategoryID: selectedCategoryId">
         <ul>
             <li *ngFor="let recipe of category.recipes">
                 <h2>{{recipe.title}}</h2>

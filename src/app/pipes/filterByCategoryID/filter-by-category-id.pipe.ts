@@ -8,7 +8,9 @@ import { RestoCategorie } from '../../interfaces';
 export class FilterByCategoryIDPipe implements PipeTransform {
 
   transform(value: RestoCategorie[]| null, selectedCategoryId: string): RestoCategorie[] {
-    return  value?.filter(item => item.uuid === selectedCategoryId)||[];
+    return  value?.filter((category) => category.uuid === selectedCategoryId)||[];
   }
 
 }
+
+// return  value.filter((category) => category.uuid === selectedCategoryId)
