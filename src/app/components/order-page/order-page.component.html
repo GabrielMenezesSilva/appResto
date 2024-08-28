@@ -7,7 +7,7 @@
 <ul>
     <li *ngFor="let category of categories$|async|filterByCategoryID: selectedCategoryId">
         <ul>
-            <li *ngFor="let recipe of category.recipes">
+            <li *ngFor="let recipe of category.recipes" (click)="addToForm(recipe.uuid, recipe.price)">
                 <h2>{{recipe.title}}</h2>
                 <p>{{recipe.description}}</p>
                 <span> {{recipe.price}} </span>
