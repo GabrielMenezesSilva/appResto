@@ -1,17 +1,32 @@
 <ul>
-    <li *ngFor="let category of categories$|async" (click)="selectedCategoryId=category.uuid">
-        {{category.title | uppercase}}
-    </li>
+  <li
+    *ngFor="let category of categories$ | async"
+    (click)="selectedCategoryId = category.uuid"
+  >
+    {{ category.title | uppercase }}
+  </li>
 </ul>
 
 <ul>
-    <li *ngFor="let category of categories$|async|filterByCategoryID: selectedCategoryId">
-        <ul>
-            <li *ngFor="let recipe of category.recipes" (click)="addToForm(recipe.uuid, recipe.price)">
-                <h2>{{recipe.title}}</h2>
-                <p>{{recipe.description}}</p>
-                <span> {{recipe.price}} </span>
-            </li>
-        </ul>
-    </li>
+  <li
+    *ngFor="
+      let category of categories$
+        | async
+        | filterByCategoryID : selectedCategoryId
+    "
+  >
+    <ul>
+      <li
+        *ngFor="let recipe of category.recipes"
+      >
+        <h2>{{ recipe.title }}</h2>
+        <p>{{ recipe.description }}</p>
+        <span> {{ recipe.price }} </span>
+        <button (click)="addToForm(recipe.uuid, recipe.price)">
+          Adicionar
+        </button>
+        <button (click)="deleteToForm(recipe.uuid, recipe.price)">Remove</button>
+      </li>
+    </ul>
+  </li>
 </ul>

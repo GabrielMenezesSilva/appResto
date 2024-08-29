@@ -15,7 +15,7 @@ import { FormArray, FormControl, FormGroup, FormsModule, Validators } from '@ang
 export class OrderPageComponent {
   title = 'resto';
   categories!: RestoCategorie[];
-  categories$ =  inject (APIService).getRecipes();
+  categories$;
   selectedCategoryId: string = '01489fc9-0be3-424e-a276-33e393062072';
 
 
@@ -56,5 +56,21 @@ export class OrderPageComponent {
     console.log(this.orderForm.value, this.orderForm.valid);
   }
 
- 
-}
+  // Adicionar função para remover item do pedido
+
+  deleteToForm(id: string, price: number) {
+    const itemExist = this.orderForm.value.findIndex((element: {id: string}) => element.id === id);
+
+    if (itemExist >= 0) {
+      let quantity: number = this.orderForm.at(itemExist).get('quantity')?.value || 1;
+      quantity--;
+      if (quantity <= 0) {
+        this.orderForm.removeAt(itemExist);
+      } else {
+        this.orderForm.at(itemExist).get('quantity')?.patchValue(quantity);
+      }
+    }
+
+    console.log(this.orderForm.value, this.orderForm.valid);
+  }
+  }
