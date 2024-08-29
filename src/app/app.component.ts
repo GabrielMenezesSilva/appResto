@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { APIService } from './api.service';
 import { RestoCategorie } from './interfaces';
 import {OrderPageComponent} from './components/order-page/order-page.component';
@@ -8,7 +8,7 @@ import { NgFor, NgStyle, SlicePipe, UpperCasePipe } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, OrderPageComponent, NgStyle, NgFor, SlicePipe, UpperCasePipe],
+  imports: [RouterOutlet,RouterLink, OrderPageComponent, NgStyle, NgFor, SlicePipe, UpperCasePipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
