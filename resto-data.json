@@ -1,0 +1,1310 @@
+
+{
+    "title": "Pizza Avenue (Genève)",
+    "data": [
+      {
+        "itemUuids": [
+          "7c019456-f219-4efb-8df9-84e34f36f90b",
+          "4b6b6d4a-edc7-44be-b15b-251cd664ecfd",
+          "7c11ecd5-4738-4c38-bba9-01d342e64b60",
+          "dd5641ac-859c-4036-aac3-f8cc7f5e11b0"
+        ],
+        "title": "Tex-Mex",
+        "uuid": "01489fc9-0be3-424e-a276-33e393062072",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "6 pièces.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/ca3e2a7e-656d-4169-a5dc-edf57889a77b.jpeg",
+            "price": 650,
+            "title": "Bouchées Camembert",
+            "uuid": "4b6b6d4a-edc7-44be-b15b-251cd664ecfd",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "4 pièces.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/b41df2f8-29af-4ecf-b834-75f93e1d6554.jpeg",
+            "price": 650,
+            "title": "Jalapeños",
+            "uuid": "7c019456-f219-4efb-8df9-84e34f36f90b",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "6 pièces.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/4dba36a0-76a4-493d-a99a-31a66d4b0382.jpeg",
+            "price": 650,
+            "title": "Stick Mozzarella",
+            "uuid": "7c11ecd5-4738-4c38-bba9-01d342e64b60",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "6 pièces.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/5c6a9f2e-2c6f-416e-8f7d-7ece4e537c6a.jpeg",
+            "price": 650,
+            "title": "Onion rings",
+            "uuid": "dd5641ac-859c-4036-aac3-f8cc7f5e11b0",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "8d713400-0a36-42ab-9ef6-0c718bdad157",
+          "a67d3005-02ae-4320-afc9-638ca74c0c40",
+          "988da0e1-b359-48cf-bbdd-cdf66bc2dc77",
+          "a102dacc-7b40-4ce2-9cd6-7714e40ab0de",
+          "e3b53d99-ece3-44f9-9068-12149dd5179c"
+        ],
+        "title": "Pizzas gourmandes",
+        "uuid": "08abc67f-7066-49c3-a23e-cd64c25fde19",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Base crème, pommes de terre, jambon de dinde, bacon de dinde, raclette et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/da1343d4-231f-4177-a02c-d0c3a3b432fe.jpeg",
+            "price": 1590,
+            "title": "Pizza raclette",
+            "uuid": "8d713400-0a36-42ab-9ef6-0c718bdad157",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Base crème, poulet curry, bacon de dinde, Mozzarella, oignons et sauce barbecue. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/c9033138-acd5-4b7b-8929-c25917a24008.jpeg",
+            "price": 1590,
+            "title": "Pizza bacon slice",
+            "uuid": "988da0e1-b359-48cf-bbdd-cdf66bc2dc77",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, chorizo de bœuf, boulette de bœuf haché, pommes de terre, crème fraîche, oignons et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/1569250f-38bd-4fcc-b6c9-7edaf59dc03e.jpeg",
+            "price": 1590,
+            "title": "Pizza california",
+            "uuid": "a102dacc-7b40-4ce2-9cd6-7714e40ab0de",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Base crème, pommes de terre, lardons, Reblochon, Mozzarella et oignons. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/6f390a44-4d3f-48e0-8857-6addacbb2671.jpeg",
+            "price": 1590,
+            "title": "Pizza savoyarde",
+            "uuid": "a67d3005-02ae-4320-afc9-638ca74c0c40",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, poulet curry, jambon de dinde, merguez, bœuf haché et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/59fdb6a2-b472-45f5-91af-c93bcec75a72.jpeg",
+            "price": 1590,
+            "title": "Pizza cannibale",
+            "uuid": "e3b53d99-ece3-44f9-9068-12149dd5179c",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "4c2ad3ed-5fbb-54a6-8b84-eb0a3e309568",
+          "b2cafc90-439e-4354-9688-4a9e8385a0c0",
+          "63e65bc7-b761-442d-bb42-f09e5843c422",
+          "d7139380-26bc-571a-aa28-55ab5ee64148",
+          "90e56715-7823-4728-9841-833c0926dbbb",
+          "13e209b3-3fd5-4a62-8e60-3aede37ed244",
+          "e5acc48d-5b24-458c-9f67-8ce2a336171c",
+          "c8fbcd26-396b-46a5-96ea-4091d28ce5d7",
+          "e909b8e7-c9a6-44e1-8746-b31e4ebce8d0",
+          "ef2d8156-a4db-4baf-abfd-82ee513db23b",
+          "107e39b4-ea8b-4800-b2e7-0e5d643edee1",
+          "344151bd-d38f-4abc-be6d-da493dcb3597",
+          "609da491-2912-4396-a3fb-7d2fa4adeaaf",
+          "0bb1c313-b114-45b3-8f9e-4045882ce9be"
+        ],
+        "title": "Boissons",
+        "uuid": "11ede0a3-f654-5306-8b80-89003dbfe21e",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "50 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Eau gazeuse Valser",
+            "uuid": "0bb1c313-b114-45b3-8f9e-4045882ce9be",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Fuzetea pêche",
+            "uuid": "107e39b4-ea8b-4800-b2e7-0e5d643edee1",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Fanta orange",
+            "uuid": "13e209b3-3fd5-4a62-8e60-3aede37ed244",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Fuzetea citron",
+            "uuid": "344151bd-d38f-4abc-be6d-da493dcb3597",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Taille au choix.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Coca-Cola",
+            "uuid": "4c2ad3ed-5fbb-54a6-8b84-eb0a3e309568",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "50 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Eau plate Valser",
+            "uuid": "609da491-2912-4396-a3fb-7d2fa4adeaaf",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "7 Up mojito",
+            "uuid": "63e65bc7-b761-442d-bb42-f09e5843c422",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Fanta citron",
+            "uuid": "90e56715-7823-4728-9841-833c0926dbbb",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Coca-Cola zéro",
+            "uuid": "b2cafc90-439e-4354-9688-4a9e8385a0c0",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Oasis pomme cassis framboise",
+            "uuid": "c8fbcd26-396b-46a5-96ea-4091d28ce5d7",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Orangina",
+            "uuid": "d7139380-26bc-571a-aa28-55ab5ee64148",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Taille au choix.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Oasis tropical",
+            "uuid": "e5acc48d-5b24-458c-9f67-8ce2a336171c",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Oasis pomme poire",
+            "uuid": "e909b8e7-c9a6-44e1-8746-b31e4ebce8d0",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "33 cl.",
+            "imageUrl": "",
+            "price": 250,
+            "title": "Tropico",
+            "uuid": "ef2d8156-a4db-4baf-abfd-82ee513db23b",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "251a9b7c-0425-4f55-a060-c4d99c9daffb",
+          "471fdc56-15bf-4637-ab85-b12afd4ddd8f",
+          "2829c983-025b-412f-a881-17f67779e287",
+          "e266a57c-d5d6-4b01-a1a5-55f2b07c3f54"
+        ],
+        "title": "Glaces",
+        "uuid": "4ccdd9ee-4de9-4ce7-bcf5-9217ffe01ff9",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Crème glacée beurre de Cacahuète avec des morceaux de pâte au beurre de Cacahuète Cacaotés. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/c095756b-40cd-4f0f-8ab9-38642985dcc7.jpeg",
+            "price": 500,
+            "title": "Ben & Jerry's peanut butter cup",
+            "uuid": "251a9b7c-0425-4f55-a060-c4d99c9daffb",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Crème Glacée Vanille avec des Morceaux de Pâte à Cookie aux Pépites de Chocolat et des inclusions cacaotées. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/19770b46-4f17-4077-a44f-dfdcbd3369e4.jpeg",
+            "price": 500,
+            "title": "Ben & Jerry's cookie dough",
+            "uuid": "2829c983-025b-412f-a881-17f67779e287",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Crème glacée façon cheesecake à la fraise avec des fraises et de la pâte de biscuit. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/2654fccd-2d0a-4c61-a7a1-a2e8ec4cd7d7.jpeg",
+            "price": 500,
+            "title": "Ben & Jerry's stawberry cheesecake",
+            "uuid": "471fdc56-15bf-4637-ab85-b12afd4ddd8f",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Crème glacée Chocolat avec des morceaux de Brownies . Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/922bae83-bd13-4d75-9c79-85b4c8f94ee0.jpeg",
+            "price": 500,
+            "title": "Ben & Jerry's chocolate fudge brownie",
+            "uuid": "e266a57c-d5d6-4b01-a1a5-55f2b07c3f54",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "cac28aa4-a3ae-4732-9415-8c1d5756c73c",
+          "6d999197-bd70-4c8b-be38-71c7ac2eccfb",
+          "33356ce8-212c-4cd0-84fc-e55cd899eae5",
+          "b9a1c6dd-810d-49de-aa54-b5c04559daee",
+          "6b5468a2-f560-45d2-ac4f-e3d9e1064321",
+          "68af231e-d534-4c60-8ef9-5c655cc97800",
+          "a60d7ea1-829a-4a6d-8c9c-7e1727af462c"
+        ],
+        "title": "Desserts",
+        "uuid": "6ad53b55-60c7-5cb9-b546-32df543a4f5d",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/6c395480-068b-43e5-91d0-b9f2f6c10c3a.jpeg",
+            "price": 400,
+            "title": "Fondant chocolat",
+            "uuid": "33356ce8-212c-4cd0-84fc-e55cd899eae5",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/844093da-49f9-4d73-bd7b-4070774032f5.jpeg",
+            "price": 500,
+            "title": "Tiramisu Daim",
+            "uuid": "68af231e-d534-4c60-8ef9-5c655cc97800",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/81bb52d1-6110-42d9-afe5-aaf727d8a1c3.jpeg",
+            "price": 500,
+            "title": "Tiramisu Oreo coulis chocolat",
+            "uuid": "6b5468a2-f560-45d2-ac4f-e3d9e1064321",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/39f838d5-49af-469d-bf9c-1b6997f673b9.jpeg",
+            "price": 400,
+            "title": "Tarte au Daim",
+            "uuid": "6d999197-bd70-4c8b-be38-71c7ac2eccfb",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/b32e0510-cd93-4c5c-b470-5a9a374bbf78.jpeg",
+            "price": 500,
+            "title": "Tiramisu spéculoos coulis caramel",
+            "uuid": "a60d7ea1-829a-4a6d-8c9c-7e1727af462c",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/47d09559-0cd7-49c8-813e-0efa236cf3de.jpeg",
+            "price": 400,
+            "title": "Fondant caramel",
+            "uuid": "b9a1c6dd-810d-49de-aa54-b5c04559daee",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/b2ed8b78-79e1-4d57-a951-4d420fb5da5b.jpeg",
+            "price": 1500,
+            "title": "Pizza Nutella",
+            "uuid": "cac28aa4-a3ae-4732-9415-8c1d5756c73c",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "1cfc88b3-4182-488d-9be8-213b480cadce",
+          "f4519bd2-5053-4833-8b59-0fedd32ea139",
+          "c53a2f2a-e479-4cfb-aa34-6de31de383fc",
+          "41f27559-e1b1-4b84-93f9-8431e21626be"
+        ],
+        "title": "Salades",
+        "uuid": "6e1a8c06-faa3-55b6-8bf7-49130e8f214a",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Salade et tomates cerises.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/bb0da7e3-45c3-4850-a7e7-e9c2825ea44a.jpeg",
+            "price": 500,
+            "title": "Salade verte",
+            "uuid": "1cfc88b3-4182-488d-9be8-213b480cadce",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Salade, tomates cerises, crevettes, saumon et avocat.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/e2e75ead-a517-4de6-bd44-5304cab7cce8.jpeg",
+            "price": 1200,
+            "title": "Salade océane",
+            "uuid": "41f27559-e1b1-4b84-93f9-8431e21626be",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Salade, poulet curry, tomates cerises, croûtons, maïs et Parmesan.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/4a208024-8f70-4691-a670-7df2a1c25699.jpeg",
+            "price": 1200,
+            "title": "Salade César",
+            "uuid": "c53a2f2a-e479-4cfb-aa34-6de31de383fc",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Salade, tomates cerises et fromage de chèvre.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/07d6ce9b-092f-49e8-8c33-10edce6f47a1.jpeg",
+            "price": 1000,
+            "title": "Salade chèvre",
+            "uuid": "f4519bd2-5053-4833-8b59-0fedd32ea139",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "7c11ecd5-4738-4c38-bba9-01d342e64b60",
+          "3061b148-f32b-4d70-a054-c0864bcdd22b",
+          "6b5468a2-f560-45d2-ac4f-e3d9e1064321",
+          "feb8fa58-d298-4d7e-a96b-809957e67abf",
+          "64450626-f73d-4ec2-b593-e5cbe90d8011"
+        ],
+        "title": "Picked for you",
+        "uuid": "7e12b8f3-fe2b-5529-8657-b08288fb77ca",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Sauce tomate, chorizo de bœuf et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/b244f025-c144-41de-bf8d-1af63e49c1a7.jpeg",
+            "price": 1290,
+            "title": "Pizza chorizo",
+            "uuid": "3061b148-f32b-4d70-a054-c0864bcdd22b",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce fromagère maison, gratinage Mozzarella, pain, sauce, légumes, viande et poisson au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/308c0048-1941-4f69-a6a3-19c65449160d.jpeg",
+            "price": 1200,
+            "title": "Pizza tacos",
+            "uuid": "64450626-f73d-4ec2-b593-e5cbe90d8011",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/81bb52d1-6110-42d9-afe5-aaf727d8a1c3.jpeg",
+            "price": 500,
+            "title": "Tiramisu Oreo coulis chocolat",
+            "uuid": "6b5468a2-f560-45d2-ac4f-e3d9e1064321",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "6 pièces.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/4dba36a0-76a4-493d-a99a-31a66d4b0382.jpeg",
+            "price": 650,
+            "title": "Stick Mozzarella",
+            "uuid": "7c11ecd5-4738-4c38-bba9-01d342e64b60",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": false,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, Mozzarella et olives. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/253a1a1d-9d77-413c-9a49-b82a58268aea.jpeg",
+            "price": 990,
+            "title": "Pizza Marguerita",
+            "uuid": "feb8fa58-d298-4d7e-a96b-809957e67abf",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "202fc256-c07f-4781-a3c6-4bb2ea031028",
+          "38ce3ef3-43a5-4b55-a291-cb11aa00d422",
+          "70000a39-0e1f-4c9a-af62-145cea8cb348",
+          "744bdc8a-7c1d-454a-958a-d7ba54673af8",
+          "83863cfc-2206-44e7-85b0-16421a1757df",
+          "c5fca450-4633-44a2-acad-5c50bc0b59b1",
+          "5c3c7e65-5036-4146-b882-7b5e9b3b12aa"
+        ],
+        "title": "Pizzas traditionnelles",
+        "uuid": "c58d7563-ea29-4968-be30-4f543884c878",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Sauce tomate, jambon de dinde, champignons, Mozzarella et crème fraîche. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/c1c6f4ea-e3ed-4aea-90fa-f41313514af0.jpeg",
+            "price": 1390,
+            "title": "Pizza Reine",
+            "uuid": "202fc256-c07f-4781-a3c6-4bb2ea031028",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, fromage de chèvre, Gorgonzola, Gruyère et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/e7ef7666-313e-4dd9-ba8e-db82754233c9.jpeg",
+            "price": 1390,
+            "title": "Pizza 4 fromages",
+            "uuid": "38ce3ef3-43a5-4b55-a291-cb11aa00d422",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, oignons, pommes de terre, tomates cerises, champignons, poivrons et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/26ac91ae-a646-4596-b743-8e9a0e41d83e.jpeg",
+            "price": 1390,
+            "title": "Pizza végétarienne",
+            "uuid": "5c3c7e65-5036-4146-b882-7b5e9b3b12aa",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": [
+                "VEGETARIAN"
+              ]
+            },
+            "tagSection": {
+              "tags": [
+                {
+                  "actionUuid": "2222b83c-a94c-482c-9414-f34b12d14766",
+                  "leadingIcon": "LEAF",
+                  "text": "Vegetarian",
+                  "bottomSheet": {
+                    "title": {
+                      "text": "Vegetarian"
+                    },
+                    "body": {
+                      "text": "This item doesn't include meat."
+                    },
+                    "buttonText": "Got it",
+                    "heroImgUrl": "https://d4p17acsd5wyj.cloudfront.net/bazaar/dietary_vegetarian_bottom_sheet_icon.png",
+                    "paragraphs": null
+                  }
+                }
+              ],
+              "type": "DISH_DIETARY_TAGS"
+            }
+          },
+          {
+            "description": "Sauce tomate, merguez, champignons, poivrons, Mozzarella et olives. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/6dcfc7b5-eab9-44dc-bdd2-385e2afc244a.jpeg",
+            "price": 1390,
+            "title": "Pizza orientale",
+            "uuid": "70000a39-0e1f-4c9a-af62-145cea8cb348",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, jambon de dinde, fromage de chèvre, Mozzarella et miel. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/2e59e7d4-43a1-4a62-a541-c82eb16e94a9.jpeg",
+            "price": 1390,
+            "title": "Pizza chèvre miel",
+            "uuid": "744bdc8a-7c1d-454a-958a-d7ba54673af8",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, jambon de dinde, ananas et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/ec3fe5a9-cd0c-46ce-aad4-67b17338ae55.jpeg",
+            "price": 1390,
+            "title": "Pizza hawaïenne",
+            "uuid": "83863cfc-2206-44e7-85b0-16421a1757df",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Base crème, pommes de terre, oignons, saumon fumé, Mozzarella et aneth. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/c6adadd6-31e3-4272-bbf8-038972f2804d.jpeg",
+            "price": 1390,
+            "title": "Pizza saumon",
+            "uuid": "c5fca450-4633-44a2-acad-5c50bc0b59b1",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "6c3b6ac6-9886-457a-9f48-25e481919b7e",
+          "c36d90e7-6c9f-424f-bbf9-bb25d55e3ed9",
+          "26176a9a-afc7-47af-a1bb-b0bb4245ade9",
+          "31503d9d-d4ac-4961-87a7-b4f126ad6eb6"
+        ],
+        "title": "Pizzas spéciales",
+        "uuid": "eee86249-2ae7-4c8f-869b-bedfb38940df",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Base crème, poulet curry, pommes de terre et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/83696c6e-4ea6-468c-b31c-b871f1ca22c2.jpeg",
+            "price": 1490,
+            "title": "Pizza chicken potatoes",
+            "uuid": "26176a9a-afc7-47af-a1bb-b0bb4245ade9",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Base crème, lardons, oignons, champignons, persillade et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/01641307-7dcb-4b88-84ab-ef68309e39d2.jpeg",
+            "price": 1490,
+            "title": "Pizza forestière",
+            "uuid": "31503d9d-d4ac-4961-87a7-b4f126ad6eb6",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, chorizo de bœuf, oignons, poivrons, Mozzarella et olives. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/9193ca08-d6ea-4567-a9e4-199468134375.jpeg",
+            "price": 1490,
+            "title": "Pizza mexicaine",
+            "uuid": "6c3b6ac6-9886-457a-9f48-25e481919b7e",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Base crème, poulet curry, poivrons, Mozzarella et sauce fromagère. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/3a0b31d2-e3b2-4ebe-b476-cd2a2ef17b18.jpeg",
+            "price": 1490,
+            "title": "Pizza la boisée",
+            "uuid": "c36d90e7-6c9f-424f-bbf9-bb25d55e3ed9",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "64450626-f73d-4ec2-b593-e5cbe90d8011"
+        ],
+        "title": "Pizzas tacos",
+        "uuid": "f1b5ab84-8b28-43bb-b0fc-a9a21ce06e9b",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Sauce fromagère maison, gratinage Mozzarella, pain, sauce, légumes, viande et poisson au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/308c0048-1941-4f69-a6a3-19c65449160d.jpeg",
+            "price": 1200,
+            "title": "Pizza tacos",
+            "uuid": "64450626-f73d-4ec2-b593-e5cbe90d8011",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      },
+      {
+        "itemUuids": [
+          "feb8fa58-d298-4d7e-a96b-809957e67abf",
+          "b30e22b1-a861-4c58-b086-84f7a9739155",
+          "ad414685-78b1-4b16-af22-f3773435847d",
+          "3061b148-f32b-4d70-a054-c0864bcdd22b",
+          "b403fe8f-4481-4120-945c-641222bd4c5c",
+          "161dbfc8-a55c-482b-92f8-5b736aed2e7e",
+          "55496f71-4975-4d30-862d-1e9f2b8a69c2"
+        ],
+        "title": "Pizzas classiques",
+        "uuid": "ffe486aa-18f4-4c0e-9a00-4ba41d06a267",
+        "displayType": null,
+        "recipes": [
+          {
+            "description": "Sauce tomate, merguez et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/caf405c8-7f85-4043-ae0c-e526098568e1.jpeg",
+            "price": 1290,
+            "title": "Pizza merguez",
+            "uuid": "161dbfc8-a55c-482b-92f8-5b736aed2e7e",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, chorizo de bœuf et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/b244f025-c144-41de-bf8d-1af63e49c1a7.jpeg",
+            "price": 1290,
+            "title": "Pizza chorizo",
+            "uuid": "3061b148-f32b-4d70-a054-c0864bcdd22b",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, thon, Mozzarella et olives. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/1260c408-ad0a-45dd-885d-832e8e28e4c2.jpeg",
+            "price": 1290,
+            "title": "Pizza thon",
+            "uuid": "55496f71-4975-4d30-862d-1e9f2b8a69c2",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, poulet curry et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/aad44635-b8c6-4079-9e67-1a85c62fced8.jpeg",
+            "price": 1290,
+            "title": "Pizza chicken",
+            "uuid": "ad414685-78b1-4b16-af22-f3773435847d",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, jambon de dinde et Mozzarella.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/e9c869bf-0a9c-4774-9953-fced95467b0b.jpeg",
+            "price": 1290,
+            "title": "Pizza jambon fromage",
+            "uuid": "b30e22b1-a861-4c58-b086-84f7a9739155",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, bœuf haché et Mozzarella. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/2c450339-5cb6-40d6-ae48-c454bba929c5.jpeg",
+            "price": 1290,
+            "title": "Pizza Buffalo",
+            "uuid": "b403fe8f-4481-4120-945c-641222bd4c5c",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          },
+          {
+            "description": "Sauce tomate, Mozzarella et olives. Taille au choix.",
+            "imageUrl": "https://d1ralsognjng37.cloudfront.net/253a1a1d-9d77-413c-9a49-b82a58268aea.jpeg",
+            "price": 990,
+            "title": "Pizza Marguerita",
+            "uuid": "feb8fa58-d298-4d7e-a96b-809957e67abf",
+            "nutritionalInfo": {
+              "allergens": "",
+              "displayString": ""
+            },
+            "suspendUntil": 0,
+            "classifications": [],
+            "hasCustomizations": true,
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "tagSection": null
+          }
+        ]
+      }
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/9b/d9/dc/chez-marino.jpg",
+    "etaRange": "10–30 Min",
+    "location": "Rue Sismondi 2",
+    "fareBadge": "7.00CHF Fee"
+  }
+  
