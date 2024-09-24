@@ -5,7 +5,7 @@
         [categories]="(categories$ | async) || []"
         (selectedEvent)="selectedCategoryId = $event"
       />
-      <a routerLink="/admin">Go to ADM</a>
+      <a routerLink="/admin">Go to Kitchen</a>
     </ion-content>
   </ion-menu>
   <div class="ion-page" id="main">
@@ -68,10 +68,17 @@
           </ion-col>
         </ion-row>
       </ion-grid>
+      <app-updates></app-updates>
     </ion-content>
     <ion-footer>
       <ion-toolbar>
-        <ion-button [disabled]="!orderForm.valid" expand="block" color="success"> CHECKOUT </ion-button>
+        <ion-button
+          [disabled]="!orderForm.valid"
+          expand="block"
+          color="success"
+        >
+          CHECKOUT
+        </ion-button>
       </ion-toolbar>
     </ion-footer>
   </div>

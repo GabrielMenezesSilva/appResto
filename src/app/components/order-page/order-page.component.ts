@@ -38,6 +38,8 @@ import { DividPipe } from '../../pipes/divid/divid.pipe';
 import { addIcons } from 'ionicons';
 import { addCircleOutline, removeCircleOutline } from 'ionicons/icons';
 import { RouterLink } from '@angular/router';
+import { UpdatesComponent } from '../update/update.component';
+
 
 @Component({
   selector: 'app-order-page',
@@ -68,7 +70,8 @@ import { RouterLink } from '@angular/router';
     CurrencyPipe,
     DividPipe,
     IonMenu,
-    RouterLink
+    RouterLink,
+    UpdatesComponent,
   ],
   templateUrl: './order-page.component.html',
   styleUrl: './order-page.component.scss',

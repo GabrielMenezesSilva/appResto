@@ -2,7 +2,8 @@
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
-  "compilerOptions": {
+    "compilerOptions": {
+    "types": ["dom-chromium-installation-events", "web-app-manifest"],
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
