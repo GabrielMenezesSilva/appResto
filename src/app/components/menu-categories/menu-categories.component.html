@@ -1,1 +1,12 @@
-<p>menu-categories works!</p>
+<ion-list lines="full" class="ion-no-padding" mode="md">
+  <ion-item
+    button="true"
+    *ngFor="let category of categories"
+    (click)="selectedEvent.emit(category.uuid)"
+    class="ion-text-center"
+  >
+    <ion-label>
+      {{ category.title | uppercase }}
+    </ion-label>
+  </ion-item>
+</ion-list>

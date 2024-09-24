@@ -2,15 +2,13 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { RestoCategorie } from '../../interfaces';
 
 @Pipe({
-  name: 'filterByCategoryID',
+  name: 'filterByCategoryId',
   standalone: true
 })
-export class FilterByCategoryIDPipe implements PipeTransform {
+export class filterByCategoryIdPipe implements PipeTransform {
 
-  transform(value: RestoCategorie[]| null, selectedCategoryId: string): RestoCategorie[] {
-    return  value?.filter((category) => category.uuid === selectedCategoryId)||[];
+  transform(value: RestoCategorie[] | null, selectedCategoryId : string) : RestoCategorie[] {
+    return value?.filter(item => item.uuid === selectedCategoryId) || []
   }
 
 }
-
-// return  value.filter((category) => category.uuid === selectedCategoryId)

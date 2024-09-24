@@ -1,32 +1,78 @@
-<ul>
-  <li
-    *ngFor="let category of categories$ | async"
-    (click)="selectedCategoryId = category.uuid"
-  >
-    {{ category.title | uppercase }}
-  </li>
-</ul>
-
-<ul>
-  <li
-    *ngFor="
-      let category of categories$
-        | async
-        | filterByCategoryID : selectedCategoryId
-    "
-  >
-    <ul>
-      <li
-        *ngFor="let recipe of category.recipes"
-      >
-        <h2>{{ recipe.title }}</h2>
-        <p>{{ recipe.description }}</p>
-        <span> {{ recipe.price }} </span>
-        <button (click)="addToForm(recipe.uuid, recipe.price)">
-          Adicionar
-        </button>
-        <button (click)="deleteToForm(recipe.uuid, recipe.price)">Remove</button>
-      </li>
-    </ul>
-  </li>
-</ul>
+<ion-split-pane when="xs" contentId="main">
+  <ion-menu class="ion-no-padding" contentId="main">
+    <ion-content>
+      <app-menu-categories
+        [categories]="(categories$ | async) || []"
+        (selectedEvent)="selectedCategoryId = $event"
+      />
+      <a routerLink="/admin">Go to ADM</a>
+    </ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main">
+    <ion-content class="ion-no-padding">
+      <ion-grid>
+        <ion-row
+          *ngFor="
+            let category of categories$
+              | async
+              | filterByCategoryId : selectedCategoryId
+          "
+        >
+          <ion-col
+            size="12"
+            sizeMd="6"
+            sizeLg="3"
+            *ngFor="let recipe of category.recipes"
+          >
+            <ion-card class="ion-text-center">
+              <ion-card-header class="ion-text-center" class="ion-padding">
+                <ion-avatar>
+                  <img
+                    [src]="
+                      recipe.imageUrl ||
+                      'https://placehold.co/600x400?text=' + recipe.title[0]
+                    "
+                  />
+                </ion-avatar>
+                <ion-card-title class="ion-padding-top">
+                  {{ recipe.title }}
+                </ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <!-- <p>{{ recipe.description }}</p> -->
+                <ion-note>{{
+                  recipe.price
+                    | divid : 100
+                    | currency : "CHF" : "symbol" : "1.2"
+                }}</ion-note>
+                <ion-button
+                  fill="clear"
+                  (click)="addToForm(recipe.uuid, recipe.price)"
+                >
+                  <ion-icon
+                    color="success"
+                    name="add-circle-outline"
+                  ></ion-icon>
+                </ion-button>
+                <ion-button
+                  fill="clear"
+                  (click)="deleteToForm(recipe.uuid, recipe.price)"
+                >
+                  <ion-icon
+                    color="danger"
+                    name="remove-circle-outline"
+                  ></ion-icon>
+                </ion-button>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+    <ion-footer>
+      <ion-toolbar>
+        <ion-button [disabled]="!orderForm.valid" expand="block" color="success"> CHECKOUT </ion-button>
+      </ion-toolbar>
+    </ion-footer>
+  </div>
+</ion-split-pane>
