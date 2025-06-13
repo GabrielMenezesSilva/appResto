@@ -31,18 +31,3 @@
     margin: 1rem;
     font-size: 1.2rem;
     font-weight: bold;
-}
-
-@media (max-width: 576px) {
-  ion-card {
-    padding: 0.5rem;
-  }
-
-  ion-card-title {
-    font-size: 0.9rem;
-  }
-
-  ion-note {
-    font-size: 0.8rem;
-  }
-}
