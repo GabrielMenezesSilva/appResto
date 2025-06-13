@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('appResto');
   });
 
-  it('should render title', () => {
+  it('should contain a router outlet', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, appResto');
+    expect(compiled.querySelector('ion-router-outlet')).toBeTruthy();
   });
 });
