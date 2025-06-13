@@ -8,3 +8,19 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+:root {
+  --ion-font-family: 'Inter', sans-serif;
+
+  --ion-color-primary: #ff6f61;
+  --ion-color-primary-rgb: 255, 111, 97;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #e65e52;
+  --ion-color-primary-tint: #ff8275;
+
+  --ion-background-color: #1e1e2f;
+  --ion-background-color-rgb: 30, 30, 47;
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+}

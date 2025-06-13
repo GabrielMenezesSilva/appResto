@@ -10,6 +10,8 @@
         justify-content: space-between;
         align-items: center;
         align-content: center;
+        padding: 1rem;
+        background: var(--ion-item-background, #2d2d3c);
 
         ion-card-title{
             font-size: 1rem;
