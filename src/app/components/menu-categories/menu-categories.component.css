@@ -2,4 +2,14 @@
     ion-list{
         padding-top: 0!important;
     }
+
+    ion-item{
+        --background: transparent;
+        transition: background-color 0.3s;
+    }
+
+    ion-item:hover{
+        --background: var(--ion-color-primary);
+        color: var(--ion-color-primary-contrast);
+    }
 }
