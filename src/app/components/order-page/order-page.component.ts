@@ -74,7 +74,7 @@ import { UpdatesComponent } from '../update/update.component';
     UpdatesComponent,
   ],
   templateUrl: './order-page.component.html',
-  styleUrl: './order-page.component.scss',
+  styleUrl: './order-page.component.css',
 })
 export class OrderPageComponent implements OnInit {
   title = 'Pizza';

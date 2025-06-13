@@ -26,17 +26,3 @@
         }
     }
 }
-
-@media (max-width: 576px) {
-  ion-card {
-    padding: 0.5rem;
-  }
-
-  ion-card-title {
-    font-size: 0.9rem;
-  }
-
-  ion-note {
-    font-size: 0.8rem;
-  }
-}

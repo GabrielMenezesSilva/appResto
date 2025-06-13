@@ -8,7 +8,7 @@ import { IonList, IonItem, IonLabel } from "@ionic/angular/standalone";
   standalone: true,
   imports: [IonLabel, IonItem, IonList, NgFor, UpperCasePipe],
   templateUrl: './menu-categories.component.html',
-  styleUrl: './menu-categories.component.scss'
+  styleUrl: './menu-categories.component.css'
 })
 export class MenuCategoriesComponent {
   @Input() categories!: RestoCategorie[]
