@@ -13,3 +13,11 @@
         color: var(--ion-color-primary-contrast);
     }
 }
+
+@media (max-width: 576px) {
+  ion-item {
+    font-size: 0.9rem;
+    --padding-start: 8px;
+    --padding-end: 8px;
+  }
+}
