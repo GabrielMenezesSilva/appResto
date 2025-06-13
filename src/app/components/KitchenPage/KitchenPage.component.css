@@ -1,3 +1,10 @@
 :host {
   display: block;
 }
+
+@media (max-width: 576px) {
+  a,
+  p {
+    font-size: 0.9rem;
+  }
+}

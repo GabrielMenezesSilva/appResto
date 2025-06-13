@@ -73,11 +73,14 @@
     <ion-footer>
       <ion-toolbar>
         <ion-button
+          class="checkout-button"
           [disabled]="!orderForm.valid"
           expand="block"
-          color="success"
+          color="primary"
+          shape="round"
+          size="large"
         >
-          CHECKOUT vx
+          Finalizar Pedido
         </ion-button>
       </ion-toolbar>
     </ion-footer>
