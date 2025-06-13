@@ -46,7 +46,7 @@ export class UpdatesComponent {
     private async _displayNotif() {
         console.log('display notification...');
         const data = <ToastOptions>{
-          message: 'Nouvelle mise à jours!',
+          message: 'Nouvelle mise à jour!',
           position: 'bottom',
           showCloseButton: true,
           closeButtonText: `Update`,
