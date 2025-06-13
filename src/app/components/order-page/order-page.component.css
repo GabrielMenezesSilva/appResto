@@ -1,6 +1,10 @@
 :host{
     ion-avatar{
         margin: auto;
+        img{
+            width: 100%;
+            height: auto;
+        }
     }
     ion-card{
         height: 100%;
