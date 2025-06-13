@@ -1,8 +1,8 @@
-import { FilterByCategoryIDPipe } from './filter-by-category-id.pipe';
+import { filterByCategoryIdPipe } from './filter-by-category-id.pipe';
 
-describe('FilterByCategoryIDPipe', () => {
+describe('filterByCategoryIdPipe', () => {
   it('create an instance', () => {
-    const pipe = new FilterByCategoryIDPipe();
+    const pipe = new filterByCategoryIdPipe();
     expect(pipe).toBeTruthy();
   });
 });
